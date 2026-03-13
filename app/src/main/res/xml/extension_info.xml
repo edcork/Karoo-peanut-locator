@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExtensionInfo
+  id="custom_data_field"
+  displayName="@string/extension_display_name"
+  icon="@drawable/ic_extension"
+  scansDevices="false">
+
+  <!--
+    "DataType" is what shows up in Karoo as a selectable in-ride data field.
+    The "typeId" is the stable identifier used in code and in the system.
+  -->
+  <DataType
+    typeId="custom_field"
+    description="@string/custom_field_description"
+    displayName="@string/custom_field_display_name"
+    graphical="true"
+    icon="@drawable/ic_extension" />
+
+</ExtensionInfo>
+
